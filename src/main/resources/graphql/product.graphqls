@@ -1,0 +1,27 @@
+"""
+Product : 상품
+"""
+type Product {
+    #    Long idx, String productName, String content, Integer price
+
+    """
+    상품 고유번호
+    """
+    idx: Long!
+
+    """
+    상품명
+    """
+    productName: String!
+
+    """
+    상품 설명
+    """
+    content: String!
+
+    """
+    상품 가격
+    """
+    price: Int!
+
+}

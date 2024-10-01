@@ -1,0 +1,14 @@
+"""
+Store : 상점
+"""
+type Store {
+    """
+    상점 고유번호
+    """
+    idx: Long!
+
+    """
+    상점명
+    """
+    storeName: String!
+}
